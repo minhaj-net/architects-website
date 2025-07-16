@@ -115,8 +115,14 @@ main{
   margin-top: 101px;
   gap: 20px;
 }
-.fact-1{
+.fact{
   border: 1px solid rgba(255, 144, 14, 1);
+  width: 241px;
+  height: 241px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .fact-container{
   margin-top: 120px;
@@ -124,10 +130,13 @@ main{
 .fact-title{
   font-size: 2.75rem;
   font-weight: 700;
+  margin-bottom: 40px;
 }
 .fact-1-title{
   font-size: 2.75rem;
   font-weight: 600px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 .fact-1-subtitle{
   font-weight: 600;
@@ -152,6 +161,16 @@ main{
   .team-features-container{
     text-align: center;
   }
+  .some-fact{
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+  }
+  .fact-title{
+    padding: 20px;
+  }
+  .fact-dis{
+    padding: 20px;
+  }
 }
 @media screen and (min-width:576px) and (max-width:992px){
   .teams{
@@ -160,6 +179,16 @@ main{
   }
   .bg-light{
     padding: 20px;
+  }
+  .some-fact{
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+  }
+  .fact-title{
+    text-align: center;
+  }
+  .fact-dis{
+    text-align: center;
   }
 }
 
