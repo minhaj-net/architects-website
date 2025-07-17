@@ -142,6 +142,19 @@ main{
   font-weight: 600;
   font-size: 1.35rem;
 }
+/* sponsporsor section style */
+.sponspor{
+  max-width: 540px;
+  text-align: center;
+  margin: 0 auto;
+   margin-bottom: 54px;
+}
+.sponspor-icon{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 50px;
+  filter: grayscale(100%) ;
+}
 
 
 
@@ -161,7 +174,8 @@ main{
   .team-features-container{
     text-align: center;
   }
-  .some-fact{
+  .some-fact,
+  .sponspor-icon{
     grid-template-columns: repeat(1,1fr);
     justify-items: center;
   }
@@ -180,7 +194,8 @@ main{
   .bg-light{
     padding: 20px;
   }
-  .some-fact{
+  .some-fact,
+  .sponspor-icon{
     grid-template-columns: repeat(2,1fr);
     justify-items: center;
   }
